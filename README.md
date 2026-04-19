@@ -1,6 +1,6 @@
 # Signals in the Noise: Detecting Particles in CERN Collisions with Machine Learning
 
-## 📚 Project Overview
+##  Project Overview
 
 This project analyzes real collision data from CERN, focusing on **dielectron events**.  
 The goal is to **separate real particle signals** (like Z boson decays) from **background noise** using **machine learning**.
@@ -9,7 +9,7 @@ We predict whether a collision event is likely to be a true particle signal base
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 - **dielectron.csv** — Raw dataset containing electron collision properties.
 - **signals-in-the-noise.ipynb** — Jupyter Notebook with full pipeline: loading, preprocessing, visualization, modeling.
@@ -17,7 +17,7 @@ We predict whether a collision event is likely to be a true particle signal base
 
 ---
 
-## 🛠️ What We Did
+##  What We Did
 
 - Cleaned and prepared the dataset.
 - Filled missing invariant mass (`M`) values using **Nearest Neighbor** search.
@@ -34,7 +34,7 @@ We predict whether a collision event is likely to be a true particle signal base
 
 ---
 
-## 📈 Results
+##  Results
 
 - **Test Accuracy:** 98.18%
 - **Signal Detection (F1-Score):** 0.85
@@ -44,7 +44,7 @@ The feature importance plot showed that physics-based features like **total_ener
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repository:
    ```bash
